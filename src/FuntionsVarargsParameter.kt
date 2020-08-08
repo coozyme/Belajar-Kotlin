@@ -18,10 +18,11 @@ fun hitungTotal(name: String, vararg values: Int ): Int {
 }
 
 fun main() {
+    val values = arrayOf(10,10,10,10)
+    val result =    hitungTotal1(values)
+
 //    val result = hitungTotal("ary", 10,10,10)
 //    val result = hitungTotal1()
 
-    val values = arrayOf(10,10,10,10)
-    val result =    hitungTotal1(values)
     println(result)
 }
