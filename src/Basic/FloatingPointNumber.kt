@@ -1,4 +1,4 @@
-package basic
+package Basic
 
 fun main (){
     var nilaiTotal : Float = 24F
